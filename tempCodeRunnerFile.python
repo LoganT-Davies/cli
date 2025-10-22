@@ -1,0 +1,12 @@
+"""This file contains the code for the week 3 lab exercises, focusing on for loops, while loops, and github integration"""
+print(f"Even numbers between and including 0 to 20 are:")
+for i in range(21):
+ if(i % 2 == 0):
+    print(f"{i}")
+# The above program defines the even numbers between 0 and 20
+costs = [15.00, 12.50, 3.75, 40.25, 6.99]
+total_cost = 0
+
+for cost in costs:
+    total_cost = total_cost + cost
+print(f"The total cost is: £{total_cost:.2f}")
